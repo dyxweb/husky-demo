@@ -6,6 +6,7 @@ const Home = () => {
     name: 'dyx',
     sex: 'man'
   };
+
   return (
     <div>
       <div>{num}</div>
