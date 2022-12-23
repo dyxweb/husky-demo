@@ -3,6 +3,7 @@ import cityImg from './assets/images/city.jpg'
 
 const App = () => {
   const [count, setCount] = useState(0)
+  const name = 'dyx';
   return (
     <div>
       <h1>hello world1</h1>
