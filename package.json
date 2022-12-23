@@ -10,8 +10,9 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write .",
-      "eslint --fix"
+      "eslint --fix",
+      "prettier --write",
+      "git add"
     ]
   },
   "author": "dyxweb",
